@@ -755,8 +755,8 @@
         footer {
             background: linear-gradient(135deg, var(--darker-color), #0a0a1a);
             color: white;
-            padding: 80px 0 40px;
             position: relative;
+            padding-bottom: 20px;
         }
 
         footer::before {
@@ -809,7 +809,6 @@
         .footer-divider {
             height: 1px;
             background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-            margin: 40px 0;
         }
 
         .particles {
@@ -1019,6 +1018,15 @@
 
         .style-111:hover::before {
             opacity: 1;
+        }
+
+        .disc_head {
+
+        }
+
+        .disc_text {
+            text-align: left;
+            font-size: 14px;
         }
 
         .delay-1 { animation-delay: 0.1s; }
@@ -1397,6 +1405,25 @@
         </div>
     </section>
 
+
+    <section class="disclaimer-section py-4" style="background-color: rgba(0,0,0,0.2);">
+        <div class="container">
+            <div class="">
+                <h4 class="disc_head" style="color: var(--accent-color);">Disclaimer</h4>
+                <p class="disc_text">
+                    All projects showcased on this website are original works developed using self-acquired knowledge 
+                    and skills. They are not copied from any other sources or templates. NOCTUR is an independent 
+                    freelance operation and not a registered company. All services are provided on a freelance basis.
+                </p>
+                <p class=" mt-3 disc_text">
+                    The technologies, implementations, and solutions presented here are the result of personal 
+                    research, experimentation, and professional experience in the field of AI and web development.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
     <footer id="contact">
         <div class="container">
             <div class="row">
@@ -1569,5 +1596,4 @@
 </body>
 
 </html>
-
 
